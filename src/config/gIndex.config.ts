@@ -47,7 +47,7 @@ const config: z.input<typeof Schema_Config> = {
      * Then, copy the folder id and paste it here
      */
     rootFolder:
-      "bbf06e44e1d73f18054bacc2d4aa22a96bab55c69aa2b602d8e05f00e2df881e4ecb2221ab33e0f61fdc68ca34b6e67b7a;5efec7159a38c480c6dadadc",
+      "7469d2da0325ba3aaf00aa3e233aad37d52e4b75a7f8e7b24fe4ebf9a505dc372339b65244b197d710a7ccdb93480c2f27;720056bfdaee0f6688fb80a4",
 
     /**
      * If your rootfolder inside a shared drive, you NEED to set this to true
@@ -174,7 +174,7 @@ const config: z.input<typeof Schema_Config> = {
      */
     siteName: "HyperTN | MIUITN",
     siteNameTemplate: "%s - %t",
-    siteDescription: "Mod by Thang Nguyen",
+    siteDescription: "A simple file browser for Google Drive",
     siteIcon: "/logo.svg",
     siteAuthor: "Thang Nguyen",
     favIcon: "/favicon.png",
@@ -184,7 +184,7 @@ const config: z.input<typeof Schema_Config> = {
      * ref: https://nextjs.org/docs/app/api-reference/functions/generate-metadata#robots
      */
     robots: "noindex, nofollow",
-    twitterHandle: "",
+    twitterHandle: "@mbaharip_",
 
     /**
      * Show file extension on the file name
@@ -285,7 +285,7 @@ const config: z.input<typeof Schema_Config> = {
     "value": "{{ poweredBy }}"
   },
   {
-    "value": "Made with ❤️ by [**{{ author }}**](https://github.com/nvthang23039)"
+    "value": "Made with ❤️ by [**{{ author }}**](https://github.com/nvthang2303)"
   }
 ],
     /**
