@@ -79,7 +79,7 @@ const config: z.input<typeof Schema_Config> = {
      */
     specialFile: {
       password: ".password",
-      readme: ".readme.md",
+      readme: "Readme.md",
       /**
        * Banner will be used for opengraph image for folder
        * By default, all folder will use default og image
@@ -94,7 +94,7 @@ const config: z.input<typeof Schema_Config> = {
      *
      * You can add more extensions if you want
      */
-    hiddenFiles: [".password", ".readme.md", ".banner", ".banner.jpg", ".banner.png", ".banner.webp"],
+    hiddenFiles: [".password", "Readme.md", ".banner", ".banner.jpg", ".banner.png", ".banner.webp"],
 
     /**
      * By default, the app will use the thumbnail URL from Google Drive
