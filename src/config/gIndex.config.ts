@@ -8,7 +8,7 @@ const config: z.input<typeof Schema_Config> = {
    * If possible, please don't change this value
    * Even if you're creating a PR, just let me change it myself
    */
-  version: "2.7",
+  version: "2.0.4",
   /**
    * Base path of the app, used for generating links
    *
