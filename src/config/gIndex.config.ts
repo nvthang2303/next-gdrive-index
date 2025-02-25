@@ -175,9 +175,9 @@ const config: z.input<typeof Schema_Config> = {
     siteName: "HyperTN | MIUITN",
     siteNameTemplate: "%s - %t",
     siteDescription: "A simple file browser for Google Drive",
-    siteIcon: "/logo.svg",
+    siteIcon: "/TN_logo.ico",
     siteAuthor: "Thang Nguyen",
-    favIcon: "/favicon.png",
+    favIcon: "/TN_logo.ico",
     /**
      * Next.js Metadata robots object
      *
