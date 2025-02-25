@@ -94,7 +94,7 @@ const config: z.input<typeof Schema_Config> = {
      *
      * You can add more extensions if you want
      */
-    hiddenFiles: [".password", ".readme.md", ".banner.jpg", ".banner.png", ".banner.webp", ".banner", "Readme.md"],
+    hiddenFiles: [".password", ".readme.md", ".banner.jpg", ".banner.png", ".banner.webp", ".banner"],
 
     /**
      * By default, the app will use the thumbnail URL from Google Drive
