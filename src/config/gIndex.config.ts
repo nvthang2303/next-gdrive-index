@@ -47,7 +47,7 @@ const config: z.input<typeof Schema_Config> = {
      * Then, copy the folder id and paste it here
      */
     rootFolder:
-      "7469d2da0325ba3aaf00aa3e233aad37d52e4b75a7f8e7b24fe4ebf9a505dc372339b65244b197d710a7ccdb93480c2f27;720056bfdaee0f6688fb80a4",
+      "2c9e0359736893d38fc0a502c4e6641e58aa6ca000a368ec4aebbc1c22ccf5e4a48821294dbd1cfcd6409a35c90afbf4e7;ac4507991cede4ba3e3be627",
 
     /**
      * If your rootfolder inside a shared drive, you NEED to set this to true
@@ -94,7 +94,7 @@ const config: z.input<typeof Schema_Config> = {
      *
      * You can add more extensions if you want
      */
-    hiddenFiles: [".password", "Readme.md", ".banner", ".banner.jpg", ".banner.png", ".banner.webp"],
+    hiddenFiles: [".password", ".readme.md", ".banner.jpg", ".banner.png", ".banner.webp", ".banner", "Readme.md"],
 
     /**
      * By default, the app will use the thumbnail URL from Google Drive
@@ -174,17 +174,17 @@ const config: z.input<typeof Schema_Config> = {
      */
     siteName: "HyperTN | MIUITN",
     siteNameTemplate: "%s - %t",
-    siteDescription: "A simple file browser for Google Drive",
-    siteIcon: "/logo.svg",
+    siteDescription: "HyperTN | MIUITN - Mod by Thang Nguyen",
+    siteIcon: "/TN_logo.ico",
     siteAuthor: "Thang Nguyen",
-    favIcon: "/favicon.png",
+    favIcon: "/TN_logo.ico",
     /**
      * Next.js Metadata robots object
      *
      * ref: https://nextjs.org/docs/app/api-reference/functions/generate-metadata#robots
      */
     robots: "noindex, nofollow",
-    twitterHandle: "@mbaharip_",
+    twitterHandle: "",
 
     /**
      * Show file extension on the file name
@@ -250,7 +250,26 @@ const config: z.input<typeof Schema_Config> = {
      *  external?: boolean
      * }
      */
-    navbarItems: [],
+    navbarItems: [
+  {
+    "icon": "Github",
+    "name": "Github",
+    "href": "https://github.com/nvthang2303",
+    "external": false
+  },
+  {
+    "icon": "Mail",
+    "name": "Gmail",
+    "href": "nvthang.07cs@gmail.com",
+    "external": false
+  },
+  {
+    "icon": "Group",
+    "name": "Telegram",
+    "href": "/new-item",
+    "external": false
+  }
+],
 
     /**
      * Add support / donation links on the navbar
@@ -261,7 +280,18 @@ const config: z.input<typeof Schema_Config> = {
      *  href: string,
      * }
      */
-    supports: [],
+    supports: [
+  {
+    "name": "Momo",
+    "currency": "VND",
+    "href": "https://me.momo.vn/miuitn"
+  },
+  {
+    "name": "Paypal",
+    "currency": "USD",
+    "href": "https://www.paypal.me/nvthang2303"
+  }
+],
 
     /**
      * Footer content
@@ -282,7 +312,7 @@ const config: z.input<typeof Schema_Config> = {
      */
     footer: [
   {
-    "value": "{{ poweredBy }}"
+    "value": "HyperTN | MIUITN"
   },
   {
     "value": "Made with ❤️ by [**{{ author }}**](https://github.com/nvthang2303)"
