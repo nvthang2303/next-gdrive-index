@@ -8,7 +8,7 @@ const config: z.input<typeof Schema_Config> = {
    * If possible, please don't change this value
    * Even if you're creating a PR, just let me change it myself
    */
-  version: "2.0.4",
+  version: "",
   /**
    * Base path of the app, used for generating links
    *
@@ -174,7 +174,7 @@ const config: z.input<typeof Schema_Config> = {
      */
     siteName: "HyperTN | MIUITN",
     siteNameTemplate: "%s - %t",
-    siteDescription: "A simple file browser for Google Drive",
+    siteDescription: "HyperTN | MIUITN - Mod by Thang Nguyen",
     siteIcon: "/TN_logo.ico",
     siteAuthor: "Thang Nguyen",
     favIcon: "/TN_logo.ico",
